@@ -5,7 +5,7 @@ from scipy.fft import fft
 from matplotlib.pyplot import specgram
 
 # Load CSV data into a pandas DataFrame
-csv_file = 'drone.csv'
+csv_file = '20230720_Gryphon_EX/A20230720P006M6/decode_file/NO_GPS_fc_log_0006_temp.csv'
 df = pd.read_csv(csv_file)
 
 # Extract data from the DataFrame
